@@ -1,0 +1,55 @@
+{
+  "name": "admin-template--egg-vue3.0",
+  "version": "1.0.0",
+  "description": "后台项目模板——egg + vue3.0 整合版本",
+  "private": true,
+  "egg": {
+    "declarations": true,
+    "framework": "egg-vue-framework-plus"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "egg": "^2.15.1",
+    "egg-scripts": "^2.11.0",
+    "element-plus": "^1.0.2-beta.54",
+    "vue": "^3.1.4",
+    "vue-cropperjs": "^5.0.0",
+    "vue-i18n": "^9.1.6",
+    "vue-router": "^4.0.10",
+    "vue-schart": "^2.0.0",
+    "vuex": "^4.0.2",
+    "wangeditor": "^4.7.5"
+  },
+  "devDependencies": {
+    "@vue/eslint-config-standard": "^6.0.0",
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.11.0",
+    "egg-vue-framework-plus": "^1.0.0",
+    "egg-mock": "^3.21.0",
+    "eslint": "^7.30.0",
+    "eslint-config-egg": "^7.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^7.13.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --daemon --title=egg-server-admin--admin-template--egg-vue3.0",
+    "stop": "egg-scripts stop --title=egg-server-admin--admin-template--egg-vue3.0",
+    "dev": "egg-bin dev",
+    "build": "node node_modules/egg-vue-framework-plus/lib/build.js"
+  },
+  "ci": {
+    "version": "10"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT"
+}
